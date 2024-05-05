@@ -1,15 +1,6 @@
-English description below!
 # openai-whisper
 
-A projekt bemutatja az OpenAI nyelvi feldolgozási képességeinek erejét.
-
-A konkrét kód azok számára lehet hasznos, akik gyorsan szeretnének magyar nyelvű YouTube videót angolra fordítani.
-
-A python script letölti az inputként megadott videót (a helyes működéshez érdemes magyar nyelvű videóval próbálkozni), kinyeri az audió sávot mp3 formátumba, majd az OpenAI Whisper segítségével elkészíti a hang szöveges leiratát és lefordítja angolra az OpenAI GPT-3 model segítségével. 
-
-A szkript a Pytube könyvtárat használja a videó letöltéséhez, az FFMPEG-et az audió kinyeréséhez és a mp3 formátumba való konvertáláshoz. Az OpenAI Whisper segítségével a szkript lejegyzi a beszédet, majd a spaCy magyar nyelvi modelljét használja az a mondatokra bontáshoz. 
-
-A szkript használatához szükség lesz a Python 3-ra, az említett könyvtárakra és az OpenAI API kulcsra.
+Example YouTube video: https://www.youtube.com/watch?v=ABQ2_znfEcg
 
 Description:
 
